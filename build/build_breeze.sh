@@ -18,14 +18,14 @@ cp -r \
 
 # fb303 thrift
 mkdir -p ./fb303-thrift
-cp -r  /opt/facebook/fb303/include/thrift-files/fb303 ./fb303-thrift/
+cp -r /opt/facebook/fb303/include/thrift-files/fb303 ./fb303-thrift/
 
 # fbzmq thrift
 mkdir -p ./fbzmq-thrift/fbzmq
-cp -r  /opt/facebook/fbzmq/include/fbzmq/service ./fbzmq-thrift/fbzmq/
+cp -r /opt/facebook/fbzmq/include/fbzmq/service ./fbzmq-thrift/fbzmq/
 
 # fbthrift Cython and thrift
-cp -r  /opt/facebook/fbthrift/include/thrift/lib/ ./thrift
+cp -r /opt/facebook/fbthrift/include/thrift/lib/ ./thrift
 touch ./thrift/py3/__init__.py
 touch ./thrift/__init__.py
 
